@@ -1,0 +1,30 @@
+{
+  "name": "json-pathfinder",
+  "version": "0.0.0",
+  "description": "extract paths to leafs of JSON object",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansteh/json-pathfinder.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "author": "Andre Stehle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ansteh/json-pathfinder/issues"
+  },
+  "dependencies": {
+    "json-stack": "0.0.2",
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {}
+}
