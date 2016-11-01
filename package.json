@@ -1,6 +1,6 @@
 {
   "name": "json-pathfinder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "extract paths to leafs of JSON object",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,10 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "json paths",
+    "property tree of json"
+  ],
   "author": "Andre Stehle",
   "license": "MIT",
   "bugs": {
@@ -24,7 +27,7 @@
   },
   "dependencies": {
     "json-stack": "0.0.2",
-    "lodash": "^4.15.0"
+    "lodash": "^4.16.6"
   },
   "devDependencies": {}
 }
